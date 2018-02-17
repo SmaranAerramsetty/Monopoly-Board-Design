@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'kabobLight';
+    src: url('kabobLight.ttf');
+    }
+div{
+    margin: 0px;
+}
+#board_div{
+    background-color: #ccf4e3;
+    height: 743px;
+    width: 743px;
+}
+#top_div{
+    font-size: 0px;
+    width: 779px;
+    height: 110px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 6px;
+    left: -39px;
+}
+#left_div{
+    font-size: 0px;
+    width: 513px;
+    height: 109px;
+    position: absolute;
+    top: 318px;
+    left: -196px;
+    transform: rotate(90deg);
+    
+}
+#right_div{
+    font-size: 0px;
+    width: 513px;
+    height: 109px;
+    position: absolute;
+    top: 318px;
+    left: 424px; 
+    transform: rotate(270deg);
+}
+#bottom_div{
+    font-size: 0px;
+    width: 779px;
+    height: 110px;
+    position: absolute;
+    top: 629px;
+    left: 1px;
+}
+.box_div{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    vertical-align: top;
+    display: inline-block;
+    width: 55px;
+    height: 110px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.left_corner_div{
+    border-left: 2px solid black;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    width: 110px;
+    height: 111px;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+}
+.right_corner_div{
+    border-style: solid;
+    border-color: black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    width: 110px;
+    height: 111px;
+}
+
+.square_plate{
+    position: relative;;
+    top: 0px;
+    left: 0px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    height: 22px;
+    width: 55px;
+}
+.plate_color_grey{
+    background-color: rgb(103, 184, 184);
+}
+.plate_color_brown{
+    background-color: brown;
+}
+.plate_color_blue{
+    background-color: blue;
+}
+.plate_color_green{
+    background-color: green;
+}
+.plate_color_yellow{
+    background-color: yellow;
+}
+.plate_color_red{
+    background-color: red;
+}
+.plate_color_orange{
+    background-color: orange;
+}
+.plate_color_pink{
+    background-color: rgb(202, 66, 173);
+}
+.bottom_price{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.text_content{
+    text-align: center;
+    font-size: 7px;
+    font-family: kabobLight, sans-serif;
+}
+img[src="images/question_pink.PNG"] {
+    height: 75px;
+    padding: 9px;
+}
+img[src="images/train.PNG"] {
+    height: 41px;
+    padding: 15px 10px 15px 0px;
+}
+.text_content_large{
+    text-align: center;
+    font-size: 11px;
+    font-family: kabobLight, sans-serif;
+}
+img[src="images/chest_box.PNG"] {
+    height: 38px;
+    padding: 15px 2px 10px 2px;
+}
+img[src="images/question_red.PNG"] {
+    height: 76px;
+    padding: 7px 0px 0px 8px;
+}
+img[src="images/tap.PNG"] {
+    height: 37px;
+    padding: 14px 0px 0px 5px;
+}
+img[src="images/question_blue.PNG"] {
+    height: 76px;
+    padding: 7px 0px 0px 8px;
+}
+img[src="images/bulb.PNG"] {
+    height: 56px;
+    padding: 5px;
+}
+img[src="images/parking.PNG"] {
+    position: absolute;
+    top: 7px;
+    right: 52px;
+    z-index: 100;
+    height: 88px;
+    transform: rotate(180deg);
+}
+img[src="images/officer.PNG"] {
+    position: absolute;
+    z-index: 100;
+    top: 19px;
+    left: 24px;
+    height: 70px;
+    transform: rotate(180deg);
+
+}
+img[src="images/go.PNG"] {
+    position: absolute;
+    z-index: 100;
+    top: 16px;
+    right: 45px;
+    height: 92px;
+}
+img[src="images/in_jail.PNG"] {
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    left: 31px;
+    border-top: 1px solid black;
+    height: 79px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.right_corner_div>.text_content {
+    position: absolute;
+    bottom: 65px;
+    right: 97px;
+    z-index: 200;
+    transform: rotate(315deg);
+}
+#firstBox {
+    position: absolute;
+    z-index: 100;
+    top: 158px;
+    left: 144px;
+    height: 201px;
+}
+#secondBox {
+    position: absolute;
+    z-index: 100;
+    top: 392px;
+    left: 389px;
+    height: 201px;
+}
+#firstText{
+    position: absolute;
+    top: 254px;
+    left: 200px;
+    z-index: 200;
+    transform: rotate(135deg);
+}
+#secondText{
+    position: absolute;
+    top: 489px;
+    left: 475px;
+    z-index: 200;
+    transform: rotate(315deg);
+}
+#just_text{
+    position: absolute;
+    bottom: 62px;
+    left: 17px;
+    transform: rotate(90deg);
+}
+#visit_text{
+    position: absolute;
+    bottom: 17px;
+    left: 55px;
+}
+#park_text{
+    position: absolute;
+    bottom: 22px;
+    right: 80px;
+    z-index: 200;
+    transform: rotate(315deg);
+}
+#officer_text{
+    position: absolute;
+    bottom: 22px;
+    left: 44px;
+    z-index: 200;
+    transform: rotate(45deg);
+}
+#title_outerBox{
+    position: absolute;
+    top: 352px;
+    left: 182px;
+    width: 382px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: red;
+    z-index: 200;
+    transform: rotate(315deg);
+}
+#title_text{
+    position: absolute;
+    left: 94px;
+    border-radius: 5px;
+    border: 4px solid white;
+    color: white;
+    margin: 3px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: scale(2,1);
+}
